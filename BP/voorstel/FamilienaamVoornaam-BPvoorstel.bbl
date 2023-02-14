@@ -1,0 +1,176 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{AIEngineering2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d7b0d741646a20177cadd5083000cba5}{%
+           family={AIEngineering},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{organization}{1}{%
+        {QuestGen}%
+      }
+      \strng{namehash}{d7b0d741646a20177cadd5083000cba5}
+      \strng{fullhash}{d7b0d741646a20177cadd5083000cba5}
+      \strng{bibnamehash}{d7b0d741646a20177cadd5083000cba5}
+      \strng{authorbibnamehash}{d7b0d741646a20177cadd5083000cba5}
+      \strng{authornamehash}{d7b0d741646a20177cadd5083000cba5}
+      \strng{authorfullhash}{d7b0d741646a20177cadd5083000cba5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ramsri Goutham is een AI expert met een specialisatie in NLP. Hij is ook de oprichter van Questgen, een bedrijf dat quizzes kan genereren op basis van een gegeven tekst. In de video bespreekt hij volgende onderwerpen: genereren van vragen met NLP, genereren van meerkeuzevragen met Wordnet en T5 transformers, genereren van waar/onwaar-vragen met GPT-2 en genereren van invulvragen en combinatievragen. Er wordt bij elk onderwerp ook een voorbeeld gegeven in Jupyter Notebook als demonstratie van de modellen besproken.}
+      \field{day}{6}
+      \field{month}{3}
+      \field{title}{Question Generation Using Natural Language Processing}
+      \field{urlday}{1}
+      \field{urlmonth}{9}
+      \field{urlyear}{2016}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=hoCi_bJHyb8&ab_channel=AIEngineering
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=hoCi_bJHyb8&ab_channel=AIEngineering
+      \endverb
+      \keyw{NLP,Question Generation,BERT WSD,Questgen}
+    \endentry
+    \entry{Nema2018}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=47aa43bfede7156ec6f73333a45633a7}{%
+           family={Nema},
+           familyi={N\bibinitperiod},
+           given={Preksha},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=620c69e905e599a451eba3f56f8e43f0}{%
+           family={Khapra},
+           familyi={K\bibinitperiod},
+           given={Mitesh\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b1061633daaa72f44359615762578a5}
+      \strng{fullhash}{9b1061633daaa72f44359615762578a5}
+      \strng{bibnamehash}{9b1061633daaa72f44359615762578a5}
+      \strng{authorbibnamehash}{9b1061633daaa72f44359615762578a5}
+      \strng{authornamehash}{9b1061633daaa72f44359615762578a5}
+      \strng{authorfullhash}{9b1061633daaa72f44359615762578a5}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{There has always been criticism for using $n$-gram based similarity metrics, such as BLEU, NIST, etc, for evaluating the performance of NLG systems. However, these metrics continue to remain popular and are recently being used for evaluating the performance of systems which automatically generate questions from documents, knowledge graphs, images, etc. Given the rising interest in such automatic question generation (AQG) systems, it is important to objectively examine whether these metrics are suitable for this task. In particular, it is important to verify whether such metrics used for evaluating AQG systems focus on answerability of the generated question by preferring questions which contain all relevant information such as question type (Wh-types), entities, relations, etc. In this work, we show that current automatic evaluation metrics based on $n$-gram similarity do not always correlate well with human judgments about answerability of a question. To alleviate this problem and as a first step towards better evaluation metrics for AQG, we introduce a scoring function to capture answerability and show that when this scoring function is integrated with existing metrics, they correlate significantly better with human judgments. The scripts and data developed as a part of this work are made publicly available at https://github.com/PrekshaNema25/Answerability-Metric}
+      \field{day}{30}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{EMNLP, 2018}
+      \field{month}{8}
+      \field{title}{Towards a Better Metric for Evaluating Question Generation Systems}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{eprint}
+      \verb 1808.10192
+      \endverb
+      \verb{file}
+      \verb :http\://arxiv.org/pdf/1808.10192v2:PDF
+      \endverb
+      \keyw{cs.CL}
+    \endentry
+    \entry{Smiderle2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fd25ce3a1263e0ad125445e2565ee56a}{%
+           family={Smiderle},
+           familyi={S\bibinitperiod},
+           given={Rodrigo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbfeb80ae80e72677ba969b2bd0d36ae}{%
+           family={Rigo},
+           familyi={R\bibinitperiod},
+           given={Sandro\bibnamedelima José},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07d793d03b9956ed4534513811f2494a}{%
+           family={Marques},
+           familyi={M\bibinitperiod},
+           given={Leonardo\bibnamedelima B.},
+           giveni={L\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9db823a9e0f19be9904ae1e5220886c7}{%
+           family={Miranda\bibnamedelima Coelho},
+           familyi={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Jorge\bibnamedelimb Arthur\bibnamedelima Peçanha},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2d8589ee66d8790840f74d0e8beac9a3}{%
+           family={Jaques},
+           familyi={J\bibinitperiod},
+           given={Patricia\bibnamedelima A.},
+           giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{af997e4822e874d96bd535e515aee3fe}
+      \strng{fullhash}{3539757efaba371e57b36c6801b07ba1}
+      \strng{bibnamehash}{3539757efaba371e57b36c6801b07ba1}
+      \strng{authorbibnamehash}{3539757efaba371e57b36c6801b07ba1}
+      \strng{authornamehash}{af997e4822e874d96bd535e515aee3fe}
+      \strng{authorfullhash}{3539757efaba371e57b36c6801b07ba1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Smart Learning Environments}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{The impact of gamification on students' learning, engagement and behavior based on their personality traits}
+      \field{volume}{7}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1186/s40561-019-0098-x
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
