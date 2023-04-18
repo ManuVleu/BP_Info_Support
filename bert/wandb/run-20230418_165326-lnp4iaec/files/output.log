@@ -1,0 +1,47 @@
+
+
+
+
+
+
+
+
+
+
+
+
+  3%|▎         | 22/750 [00:25<07:33,  1.61it/s]Found cached dataset squad (C:/Users/dama_/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453)
+100%|██████████| 2/2 [00:00<00:00, 166.19it/s]
+Found cached dataset squad (C:/Users/dama_/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453)
+100%|██████████| 2/2 [00:00<00:00, 147.98it/s]
+  0%|          | 0/2 [00:00<?, ?it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  0%|          | 0/2 [00:00<?, ?it/s]                              Some weights of the model checkpoint at distilbert-base-uncased were not used when initializing DistilBertForQuestionAnswering: ['vocab_transform.bias', 'vocab_projector.bias', 'vocab_transform.weight', 'vocab_layer_norm.bias', 'vocab_projector.weight', 'vocab_layer_norm.weight']
+- This IS expected if you are initializing DistilBertForQuestionAnswering from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing DistilBertForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of DistilBertForQuestionAnswering were not initialized from the model checkpoint at distilbert-base-uncased and are newly initialized: ['qa_outputs.bias', 'qa_outputs.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Found cached dataset squad (C:/Users/dama_/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453)
+Found cached dataset squad (C:/Users/dama_/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453)
+Found cached dataset squad (C:/Users/dama_/.cache/huggingface/datasets/squad/plain_text/1.0.0/d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453)
+100%|██████████| 2/2 [00:00<00:00, 152.91it/s]
+Loading cached processed dataset at C:\Users\dama_\.cache\huggingface\datasets\squad\plain_text\1.0.0\d6ec3ceb99ca480ce37cdd35555d6cb2511d223b9150cce08a837ef62ffea453\cache-c6979b8502e8782b.arrow
+
+
+
+                                                                   e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\saved_models/distilbert-base-uncased_mod is already a clone of https://huggingface.co/damapika/distilbert-base-uncased_mod. Make sure you pull the latest changes with `repo.git_pull()`.
