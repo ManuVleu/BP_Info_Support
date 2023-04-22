@@ -1,0 +1,47 @@
+2023-04-22 11:41:55,030 INFO    StreamThr :13572 [internal.py:wandb_internal():86] W&B internal server running at pid: 13572, started at: 2023-04-22 11:41:55.030831
+2023-04-22 11:41:55,032 DEBUG   HandlerThread:13572 [handler.py:handle_request():144] handle_request: status
+2023-04-22 11:41:55,033 INFO    WriterThread:13572 [datastore.py:open_for_write():85] open: e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\wandb\run-20230422_114155-6nili8ov\run-6nili8ov.wandb
+2023-04-22 11:41:55,035 DEBUG   SenderThread:13572 [sender.py:send():375] send: header
+2023-04-22 11:41:55,098 DEBUG   SenderThread:13572 [sender.py:send():375] send: run
+2023-04-22 11:41:55,518 INFO    SenderThread:13572 [dir_watcher.py:__init__():219] watching files in: e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\wandb\run-20230422_114155-6nili8ov\files
+2023-04-22 11:41:55,520 DEBUG   HandlerThread:13572 [handler.py:handle_request():144] handle_request: check_version
+2023-04-22 11:41:55,523 INFO    SenderThread:13572 [sender.py:_start_run_threads():1124] run started: 6nili8ov with start time 1682156515.03083
+2023-04-22 11:41:55,523 DEBUG   SenderThread:13572 [sender.py:send_request():402] send_request: summary_record
+2023-04-22 11:41:55,524 INFO    SenderThread:13572 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-22 11:41:55,524 DEBUG   SenderThread:13572 [sender.py:send_request():402] send_request: check_version
+2023-04-22 11:41:55,612 DEBUG   HandlerThread:13572 [handler.py:handle_request():144] handle_request: run_start
+2023-04-22 11:41:55,641 DEBUG   HandlerThread:13572 [system_info.py:__init__():31] System info init
+2023-04-22 11:41:55,641 DEBUG   HandlerThread:13572 [system_info.py:__init__():46] System info init done
+2023-04-22 11:41:55,641 INFO    HandlerThread:13572 [system_monitor.py:start():181] Starting system monitor
+2023-04-22 11:41:55,641 INFO    SystemMonitor:13572 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-22 11:41:55,642 INFO    HandlerThread:13572 [system_monitor.py:probe():201] Collecting system info
+2023-04-22 11:41:55,646 INFO    SystemMonitor:13572 [interfaces.py:start():190] Started cpu monitoring
+2023-04-22 11:41:55,646 INFO    SystemMonitor:13572 [interfaces.py:start():190] Started disk monitoring
+2023-04-22 11:41:55,647 INFO    SystemMonitor:13572 [interfaces.py:start():190] Started gpu monitoring
+2023-04-22 11:41:55,654 INFO    SystemMonitor:13572 [interfaces.py:start():190] Started memory monitoring
+2023-04-22 11:41:55,661 INFO    SystemMonitor:13572 [interfaces.py:start():190] Started network monitoring
+2023-04-22 11:41:55,674 DEBUG   HandlerThread:13572 [system_info.py:probe():195] Probing system
+2023-04-22 11:41:55,675 DEBUG   HandlerThread:13572 [system_info.py:_probe_git():180] Probing git
+2023-04-22 11:41:55,805 DEBUG   HandlerThread:13572 [system_info.py:_probe_git():188] Probing git done
+2023-04-22 11:41:55,805 DEBUG   HandlerThread:13572 [system_info.py:probe():240] Probing system done
+2023-04-22 11:41:55,805 DEBUG   HandlerThread:13572 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.1', 'heartbeatAt': '2023-04-22T09:41:55.674361', 'startedAt': '2023-04-22T09:41:55.011236', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ManuVleu/BP_Info_Support.git', 'commit': '506da66579577e014d3136cbb6766d74c1bfe728'}, 'email': 'rayemin96@gmail.com', 'root': 'E:/HOGENT/2022_2023/BA/BP_Info_Support', 'host': 'Damapika', 'username': 'dama_', 'executable': 'c:\\Users\\dama_\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3696.0, 'min': 0.0, 'max': 3696.0}, 'cpu_freq_per_core': [{'current': 3696.0, 'min': 0.0, 'max': 3696.0}], 'disk': {'total': 465.74511337280273, 'used': 279.8294372558594}, 'gpu': 'NVIDIA GeForce GTX 1070 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1070 Ti', 'memory_total': 8589934592}], 'memory': {'total': 31.918636322021484}}
+2023-04-22 11:41:55,805 INFO    HandlerThread:13572 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-22 11:41:55,806 INFO    HandlerThread:13572 [system_monitor.py:probe():214] Publishing system info
+2023-04-22 11:41:55,806 DEBUG   HandlerThread:13572 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-22 11:41:55,808 DEBUG   HandlerThread:13572 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-22 11:41:55,809 INFO    HandlerThread:13572 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-22 11:41:55,828 DEBUG   SenderThread:13572 [sender.py:send():375] send: files
+2023-04-22 11:41:55,828 INFO    SenderThread:13572 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-22 11:41:55,841 DEBUG   HandlerThread:13572 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-22 11:41:55,842 DEBUG   SenderThread:13572 [sender.py:send_request():402] send_request: stop_status
+2023-04-22 11:41:56,025 DEBUG   SenderThread:13572 [sender.py:send():375] send: telemetry
+2023-04-22 11:41:56,026 DEBUG   SenderThread:13572 [sender.py:send():375] send: config
+2023-04-22 11:41:56,027 DEBUG   SenderThread:13572 [sender.py:send():375] send: metric
+2023-04-22 11:41:56,027 DEBUG   SenderThread:13572 [sender.py:send():375] send: telemetry
+2023-04-22 11:41:56,028 DEBUG   SenderThread:13572 [sender.py:send():375] send: metric
+2023-04-22 11:41:56,028 WARNING SenderThread:13572 [sender.py:send_metric():1329] Seen metric with glob (shouldn't happen)
+2023-04-22 11:41:56,383 INFO    wandb-upload_0:13572 [upload_job.py:push():137] Uploaded file C:\Users\dama_\AppData\Local\Temp\tmpv7u8drugwandb\ezmequ0p-wandb-metadata.json
+2023-04-22 11:41:56,520 INFO    Thread-16 :13572 [dir_watcher.py:_on_file_created():278] file/dir created: e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\wandb\run-20230422_114155-6nili8ov\files\wandb-summary.json
+2023-04-22 11:41:56,520 INFO    Thread-16 :13572 [dir_watcher.py:_on_file_created():278] file/dir created: e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\wandb\run-20230422_114155-6nili8ov\files\wandb-metadata.json
+2023-04-22 11:41:56,520 INFO    Thread-16 :13572 [dir_watcher.py:_on_file_created():278] file/dir created: e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\wandb\run-20230422_114155-6nili8ov\files\output.log
+2023-04-22 11:41:56,521 INFO    Thread-16 :13572 [dir_watcher.py:_on_file_created():278] file/dir created: e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\wandb\run-20230422_114155-6nili8ov\files\requirements.txt
