@@ -1,0 +1,22 @@
+
+
+  0%|          | 1/16425 [01:30<412:52:44, 90.50s/it]
+
+e:\HOGENT\2022_2023\BA\BP_Info_Support\bert\saved_models/roberta-base_mod is already a clone of https://huggingface.co/damapika/roberta-base_mod. Make sure you pull the latest changes with `repo.git_pull()`.
+c:\Users\dama_\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|          | 0/18774 [00:18<?, ?it/s]
+
+  0%|          | 0/21900 [00:51<?, ?it/s]
+  0%|          | 0/16425 [06:15<?, ?it/s]
+  0%|          | 0/18774 [04:52<?, ?it/s]
+  0%|          | 0/21900 [03:43<?, ?it/s]
+c:\Users\dama_\AppData\Local\Programs\Python\Python311\Lib\site-packages\transformers\optimization.py:391: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+  0%|          | 0/16425 [00:00<?, ?it/s]
+  0%|          | 0/32850 [00:00<?, ?it/s]
+  0%|          | 0/43800 [00:00<?, ?it/s]
+  0%|          | 0/262797 [00:00<?, ?it/s]
+
+- This IS NOT expected if you are initializing RobertaForQuestionAnswering from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of RobertaForQuestionAnswering were not initialized from the model checkpoint at roberta-base and are newly initialized: ['qa_outputs.weight', 'qa_outputs.bias']
