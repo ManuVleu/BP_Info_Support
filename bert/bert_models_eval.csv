@@ -1,0 +1,3 @@
+,exact_match,f1,total_time_in_seconds,samples_per_second,latency_in_seconds
+damapika/roberta-base_mod,"{'confidence_interval': (88.5, 91.64234164385209), 'standard_error': 0.8458757279449711, 'score': 90.3}","{'confidence_interval': (92.6370191975305, 94.73319999673953), 'standard_error': 0.6514287721478493, 'score': 93.93523621306221}",31.710781900000256,31.535015539935074,0.031710781900000255
+damapika/distilbert-base-uncased_mod,"{'confidence_interval': (80.3175150726358, 83.66752773664892), 'standard_error': 1.0542143122211702, 'score': 81.7}","{'confidence_interval': (84.96946047093249, 88.48254771472313), 'standard_error': 1.0014256056898958, 'score': 86.60828727964277}",18.965358299999934,52.72771461428195,0.018965358299999933
