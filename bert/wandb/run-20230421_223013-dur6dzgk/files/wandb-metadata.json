@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.1",
+    "heartbeatAt": "2023-04-21T20:30:13.791802",
+    "startedAt": "2023-04-21T20:30:13.109175",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/ManuVleu/BP_Info_Support.git",
+        "commit": "4b2a8b9e95c25437a9442fc09378529f52b18d75"
+    },
+    "email": "rayemin96@gmail.com",
+    "root": "E:/HOGENT/2022_2023/BA/BP_Info_Support",
+    "host": "Damapika",
+    "username": "dama_",
+    "executable": "c:\\Users\\dama_\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3696.0,
+        "min": 0.0,
+        "max": 3696.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3696.0,
+            "min": 0.0,
+            "max": 3696.0
+        }
+    ],
+    "disk": {
+        "total": 465.74511337280273,
+        "used": 280.06330490112305
+    },
+    "gpu": "NVIDIA GeForce GTX 1070 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1070 Ti",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 31.918636322021484
+    }
+}
