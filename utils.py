@@ -26,6 +26,15 @@ class Chapter:
         for child in self.children:
             nodes.extend(child.get_all_chapters())
         return random.choice(nodes)
+    
+    def find_chapter_by_name(self,name):
+        if self.name == name:
+            return self
+        for child in self.children:
+            found_chapter = child.find_chapter_by_name(name)
+            if found_chapter:
+                return found_chapter
+        return None
 
     def get_all_chapters(self):
         nodes = [self]
