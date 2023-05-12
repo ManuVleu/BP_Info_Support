@@ -1,0 +1,13 @@
+,0
+damapika/roberta-base_mod,
+Average ROUGE-1 F1 Score: 0.8243678875061223
+Average ROUGE-2 F1 Score: 0.5009613540814029
+Average ROUGE-L F1 Score: 0.8241461996371942
+damapika/distilbert-base-uncased_mod,
+Average ROUGE-1 F1 Score: 0.7657977298197758
+Average ROUGE-2 F1 Score: 0.4604179674457639
+Average ROUGE-L F1 Score: 0.765550293928804
+damapika/electra-base-discriminator_squad_mod,
+Average ROUGE-1 F1 Score: 0.8229111331047665
+Average ROUGE-2 F1 Score: 0.503799601918553
+Average ROUGE-L F1 Score: 0.8226071862317574
