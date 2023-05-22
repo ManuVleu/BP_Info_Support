@@ -1,13 +1,4 @@
-,0
-damapika/roberta-base_mod,
-Average ROUGE-1 F1 Score: 0.8243678875061223
-Average ROUGE-2 F1 Score: 0.5009613540814029
-Average ROUGE-L F1 Score: 0.8241461996371942
-damapika/distilbert-base-uncased_mod,
-Average ROUGE-1 F1 Score: 0.7657977298197758
-Average ROUGE-2 F1 Score: 0.4604179674457639
-Average ROUGE-L F1 Score: 0.765550293928804
-damapika/electra-base-discriminator_squad_mod,
-Average ROUGE-1 F1 Score: 0.8229111331047665
-Average ROUGE-2 F1 Score: 0.503799601918553
-Average ROUGE-L F1 Score: 0.8226071862317574
+,0,1,2,3
+0,damapika/roberta-base_mod_squad,0.8229803229944407,0.4997508574374015,0.8226224460036066
+1,damapika/distilbert-base-uncased_mod_squad,0.764503799123572,0.45803404414388244,0.7641846751217052
+2,damapika/electra-base-discriminator_squad_mod,0.8229111331047665,0.503799601918553,0.8226071862317574
